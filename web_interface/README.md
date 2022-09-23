@@ -1,6 +1,6 @@
-# CrosswordInterface
+# WordInterface
 
-Phoenix web interface application for the [Crossword game](https://github.com/paulcockrell/CrosswordEngine.Game)
+Phoenix web interface application for the [Word game](https://github.com/paulcockrell/WordEngine.Game)
 
 ## Run
 

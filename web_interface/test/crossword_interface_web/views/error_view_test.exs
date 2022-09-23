@@ -1,16 +1,16 @@
-defmodule CrosswordInterfaceWeb.ErrorViewTest do
-  use CrosswordInterfaceWeb.ConnCase, async: true
+defmodule WordInterfaceWeb.ErrorViewTest do
+  use WordInterfaceWeb.ConnCase, async: true
 
   # Bring render/3 and render_to_string/3 for testing custom views
   import Phoenix.View
 
   test "renders 404.html" do
-    assert render_to_string(CrosswordInterfaceWeb.ErrorView, "404.html", []) ==
+    assert render_to_string(WordInterfaceWeb.ErrorView, "404.html", []) ==
            "Not Found"
   end
 
   test "renders 500.html" do
-    assert render_to_string(CrosswordInterfaceWeb.ErrorView, "500.html", []) ==
+    assert render_to_string(WordInterfaceWeb.ErrorView, "500.html", []) ==
            "Internal Server Error"
   end
 end

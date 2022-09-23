@@ -1,4 +1,4 @@
-defmodule CrosswordInterfaceWeb.ChannelCase do
+defmodule WordInterfaceWeb.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.
@@ -21,7 +21,7 @@ defmodule CrosswordInterfaceWeb.ChannelCase do
       use Phoenix.ChannelTest
 
       # The default endpoint for testing
-      @endpoint CrosswordInterfaceWeb.Endpoint
+      @endpoint WordInterfaceWeb.Endpoint
     end
   end
 

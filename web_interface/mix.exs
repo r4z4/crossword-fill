@@ -1,9 +1,9 @@
-defmodule CrosswordInterface.Mixfile do
+defmodule WordInterface.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :crossword_interface,
+      app: :word_interface,
       version: "0.0.1",
       elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env),
@@ -18,7 +18,7 @@ defmodule CrosswordInterface.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {CrosswordInterface.Application, []},
+      mod: {WordInterface.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
@@ -38,7 +38,7 @@ defmodule CrosswordInterface.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 1.0"},
-      {:crossword_engine, path: "../crossword_engine"}
+      {:word_engine, path: "../word_engine"}
     ]
   end
 end

@@ -1,3 +1,3 @@
-defmodule CrosswordInterfaceWeb.PageViewTest do
-  use CrosswordInterfaceWeb.ConnCase, async: true
+defmodule WordInterfaceWeb.PageViewTest do
+  use WordInterfaceWeb.ConnCase, async: true
 end

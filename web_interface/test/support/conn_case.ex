@@ -1,4 +1,4 @@
-defmodule CrosswordInterfaceWeb.ConnCase do
+defmodule WordInterfaceWeb.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -19,10 +19,10 @@ defmodule CrosswordInterfaceWeb.ConnCase do
     quote do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
-      import CrosswordInterfaceWeb.Router.Helpers
+      import WordInterfaceWeb.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint CrosswordInterfaceWeb.Endpoint
+      @endpoint WordInterfaceWeb.Endpoint
     end
   end
 

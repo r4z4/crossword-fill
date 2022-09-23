@@ -1,5 +1,5 @@
-defmodule CrosswordInterfaceWeb.PageControllerTest do
-  use CrosswordInterfaceWeb.ConnCase
+defmodule WordInterfaceWeb.PageControllerTest do
+  use WordInterfaceWeb.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"
